@@ -1,0 +1,34 @@
+{
+  "items": {
+    "responsive": [
+      {
+        "id": 1,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 5,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 6,
+        "imageUrl": "/1"
+      },
+      {
+        "id": 7,
+        "imageUrl": "/1"
+      }
+    ]
+  }
+}
