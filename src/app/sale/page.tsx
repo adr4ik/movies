@@ -6,7 +6,9 @@ export default function Sale() {
     <main className=" w-[100%] bg-white">
       <div className=" text-black max-w-[1176px] m-auto pt-20 flex flex-col gap-16 pb-20">
         <div>
-          <h2 className=" text-[40px]">Sale</h2>
+          <h2 className=" text-[40px]" id="sale">
+            Sale
+          </h2>
         </div>
         <div className=" flex justify-between">
           <div className=" flex flex-col justify-between gap-5">

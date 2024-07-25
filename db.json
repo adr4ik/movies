@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 1
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 2
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 3
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 4
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 5
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 6
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 7
+    },
+    {
+      "title": "sadsad",
+      "description": "saddsa",
+      "price": 45353,
+      "image": "dsadasd",
+      "id": 8
+    }
+  ]
+}

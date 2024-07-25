@@ -6,7 +6,9 @@ export default function Aboutus() {
     <main className=" w-[100%] bg-white">
       <div className=" text-black max-w-[1176px] m-auto pt-20 flex justify-between">
         <div>
-          <h2 className=" text-5xl">About us</h2>
+          <h2 className=" text-5xl" id="about-us">
+            About us
+          </h2>
         </div>
         <div className=" flex flex-col gap-24">
           <div className=" flex justify-between text-[14px]">

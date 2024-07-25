@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter, Epilogue } from "next/font/google";
+import { Inter, Epilogue, Raleway } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
+import Header from "@/components/Header";
+import BuyNowFormModal from "@/components/BuyNowFormModal";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Watches",
@@ -16,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={raleway.className}>
+        <Header />
+        {children}
+        <BuyNowFormModal />
+      </body>
     </html>
   );
 }

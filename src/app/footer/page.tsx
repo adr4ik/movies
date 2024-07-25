@@ -18,22 +18,13 @@ export default function Footer() {
             </p>
           </div>
           <nav className=" flex flex-col justify-evenly text-xs cursor-pointer text-[18px]">
-            <Link
-              href="/aboutus"
-              className=" ease-in hover:scale-110 duration-200"
-            >
+            <Link href="/aboutus" className=" ease-in">
               ABOUT US
             </Link>
-            <Link
-              href="/catalog"
-              className=" ease-in hover:scale-125 duration-200"
-            >
+            <Link href="/catalog" className=" ease-in ">
               CATALOG
             </Link>
-            <Link
-              href="/sale"
-              className=" ease-in hover:scale-125 duration-200"
-            >
+            <Link href="/sale" className=" ease-in">
               SALE
             </Link>
           </nav>
@@ -64,11 +55,9 @@ export default function Footer() {
         </div>
         <div className=" flex justify-between">
           <p>©2022 The Watch Spot. All rights reserved.</p>
-          <p className=" flex gap-5 ease-in hover:scale-110 duration-200 cursor-pointer">
+          <p className=" flex gap-5 ease-in ">
             Privacy Policy{" "}
-            <span className=" flex gap-5 ease-in hover:scale-110 duration-200 cursor-pointer">
-              Terms of Service
-            </span>
+            <span className=" flex gap-5 ease-in ">Terms of Service</span>
           </p>
         </div>
       </div>

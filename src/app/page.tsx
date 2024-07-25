@@ -13,47 +13,6 @@ export default function homepage() {
   return (
     <main className=" w-[100%] bg-black ">
       <div className=" bg-black text-white max-w-[1176px] m-auto pt-11 pb-30">
-        <div className=" flex justify-between items-center ">
-          <div className=" flex items-center justify-between gap-36">
-            <div className=" flex items-center">
-              {" "}
-              <Image
-                src="/homepageLogo.svg"
-                alt="logo"
-                width={50}
-                height={50}
-              />
-              <p>thewatchspot</p>
-            </div>
-
-            <nav className=" flex gap-10 text-xs cursor-pointer">
-              <Link
-                className=" ease-in hover:scale-125 duration-200"
-                href="/aboutus"
-              >
-                ABOUT US
-              </Link>
-              <Link
-                className=" ease-in hover:scale-125 duration-200"
-                href="/catalog"
-              >
-                CATALOG
-              </Link>
-              <Link
-                className=" ease-in hover:scale-125 duration-200"
-                href="/Sale"
-              >
-                SALE
-              </Link>
-            </nav>
-          </div>
-
-          <div className=" bg-[#1E2827]">
-            <button className=" pt-5 pb-5 pr-9 pl-9 text-xs ease-in hover:scale-125 duration-200">
-              +380 (68) 443-94-26
-            </button>
-          </div>
-        </div>
         <div className=" flex justify-between items-center mt-20">
           <h1 className=" text-6xl w-[750px] font-normal">
             Welcome to our collection of premium watches
